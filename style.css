@@ -1,12 +1,22 @@
 *{
-    background-color: darkgrey;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:#1C1C1C;
+    color: #fafafa;
 }
 
 body{
     padding-left: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1{
@@ -22,15 +32,36 @@ img{
     height: auto;
 }
 
-ul.navbar li {
+.navbar{
+    display: grid;
+    grid-template-columns: .5fr 1.5fr; /* Dua kolom setara */
+    grid-gap: 20px; /* Jarak antara kolom */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navbar .logo img{
+
+    width: 50px;
+    height: auto;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.menu li {
     list-style-type: none;
     display: inline-block;
 }
 
-ul.navbar>li>a {
+ul.menu>li>a {
     text-decoration: none;
     padding: 1rem;
-    color: darkblue;
+    color: #fafafa;
 }
 
 footer>p{
