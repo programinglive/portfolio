@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#1C1C1C;
     color: #fafafa;
 }
 
 body{
+    background-color:#1C1C1C;
     padding-left: 1rem;
 }
 
@@ -79,16 +79,41 @@ footer>p{
 }
 
 #skills{
+    background-color: #fafafa;
+    border-radius: 10px;
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: start;
-    gap:0.5rem;
+}
+
+#skills>h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 20px;
 }
 
 #skills>ul>li{
     list-style-type: none;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    border-radius: 10px;
+    gap:0.5rem;
+}
+
+#skills>.items img{
+    width: 30px;
+    height: auto;
+}
+
+.items>.item{
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    color: #fafafa;
 }
 
 #educations{
@@ -137,14 +162,19 @@ footer>p{
     gap:0.5rem;
 }
 
+.myName{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .headline{
     font-size: 3rem;
     font-weight: 700;
     margin: 1rem 0;
 }
 
-p.btn-danger{
-    margin-top:200px;
+.call-to-action{
+    margin-top:10px;
 }
 
 .btn-danger{
