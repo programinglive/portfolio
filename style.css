@@ -36,9 +36,7 @@ img{
     display: grid;
     grid-template-columns: .5fr 1.5fr; /* Dua kolom setara */
     grid-gap: 20px; /* Jarak antara kolom */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 1rem;
-    border-radius: 10px;
 }
 
 .navbar .logo img{
@@ -125,9 +123,45 @@ footer>p{
 
 #jumbotron{
     padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap:0.5rem;
+}
+
+#jumbotron #details{
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: start;
     gap:0.5rem;
+}
+
+.headline{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+p.btn-danger{
+    margin-top:200px;
+}
+
+.btn-danger{
+    background-color: #b31010;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
 }
