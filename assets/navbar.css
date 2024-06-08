@@ -1,0 +1,12 @@
+.navbar{
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    grid-gap: 20px;
+    padding: 1rem;
+}
+
+.navbar .logo img{
+
+    width: 50px;
+    height: auto;
+}

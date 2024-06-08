@@ -1,0 +1,37 @@
+#skills{
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#skills>h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 20px;
+}
+
+#skills>ul>li{
+    list-style-type: none;
+}
+
+#skills>.items img{
+    width: 30px;
+    height: auto;
+}
+
+#skills .items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    border-radius: 10px;
+    gap:0.5rem;
+}
+
+#skills .items>.item{
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    color: #fafafa;
+}
