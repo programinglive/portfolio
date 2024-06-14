@@ -1,0 +1,31 @@
+#education{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap:2rem;
+}
+
+#education h1{
+    margin: 0;
+}
+
+#education .list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+#education .item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    border-bottom: aliceblue 1px solid;
+    padding-bottom: 1rem;
+}
+
+#education>ul>li{
+    list-style-type: none;
+}
