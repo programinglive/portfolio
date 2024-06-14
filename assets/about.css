@@ -4,3 +4,15 @@
     flex-direction: column;
     gap: 1rem;
 }
+
+#about .tiktok{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#about .youtube{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
