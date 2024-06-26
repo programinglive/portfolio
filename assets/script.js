@@ -13,3 +13,9 @@ document.querySelectorAll('.faq-question').forEach((faq) => {
     }
   });
 });
+
+
+const footer = document.querySelector('footer');
+footer.style.position = 'fixed';
+footer.style.bottom = '0';
+footer.style.width = '100%';

@@ -50,8 +50,7 @@ h2.faq-question {
 
 }
 
-
-p.faq-answer {
+.faq-answer>p {
     /* text formatting */
     font-size: 16px;
     color: #555;
