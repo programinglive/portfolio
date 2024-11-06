@@ -1,24 +1,31 @@
-const elements = document.querySelectorAll('.faq-answer');
-for (let i = 0; i < elements.length; i++) {
-  elements[i].style.display = 'none';
-}
+function checkScreenSize() {
+  const footer = document.querySelector('footer');
 
-document.querySelectorAll('.faq-question').forEach((faq) => {
-  faq.addEventListener('click', () => {
-    const answer = faq.nextElementSibling;
-    if (answer.style.display === 'none' || answer.style.display === '') {
-      answer.style.display = 'block';
-    } else {
-      answer.style.display = 'none';
-    }
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    footer.style.position = 'relative';
+  } else {
+    footer.style.position = 'fixed';
+  }
+
+  document.querySelectorAll('.faq-question').forEach((faq) => {
+    faq.addEventListener('click', () => {
+      const answer = faq.nextElementSibling;
+      if (answer.style.display === 'none' || answer.style.display === '') {
+        answer.style.display = 'block';
+      } else {
+        answer.style.display = 'none';
+      }
+    });
   });
-});
 
+  const elements = document.querySelectorAll('.faq-answer');
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].style.display = 'none';
+  }
 
-const footer = document.querySelector('footer');
-footer.style.position = 'fixed';
-footer.style.bottom = '0';
-footer.style.width = '100%';
+}
+window.addEventListener('resize', checkScreenSize);
+checkScreenSize();
 
 
 function toggleMenu(){

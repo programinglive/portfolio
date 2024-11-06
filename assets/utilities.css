@@ -28,3 +28,16 @@ button {
 .mt-10{
     margin-top: 10px;
 }
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.divider{
+    margin: 1rem 0;
+    border: 1px solid #fafafa;
+}

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <title>Programinglive Portfolio - Project Page</title>
+  <title>Programinglive Portfolio  Project - Project Page</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Programinglive Portfolio - A showcase of my skills and projects">
+  <meta name="description" content="Programinglive Portfolio  Project - A showcase of my skills and projects">
   <meta name="keywords" content="Programinglive, Portfolio, Programming, Projects, Skills">
   <meta name="author" content="Mahatma Mahardhika">
 
@@ -33,7 +33,9 @@
     <!-- NAVBAR-->
     <nav class="navbar">
       <div class="logo">
-        <img src="../assets/images/logo_programinglive.png" alt="logo php">
+        <a href="./../index.html" class="logo">
+          <img src="./../assets/images/logo_programinglive.png" alt="logo php">
+        </a>
       </div>
       <div class="menu-container">
         <ul class="menu">
@@ -52,6 +54,7 @@
     </nav>
     <!-- NAVBAR END-->
 
+    <!-- MOBILE MENU -->
     <div class="mobile-menu">
       <ul>
         <li><a href="./../index.html">Home</a></li>
@@ -60,7 +63,9 @@
         <li><a href="./../pages/about.html">About</a></li>
         <li><a href="./../pages/faq.html">FAQ</a></li>
       </ul>
+      <div class="close" onclick="toggleMenu()">x</div>
     </div>
+    <!-- MOBILE MENU END -->
 
     <section id="projects">
       <div class="text-center">
@@ -85,8 +90,26 @@
       </div>
     </section>
   </div>
+
   <footer>
-    <p>&copy; 2024 Programinglive</p>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-left">
+          <ul>
+            <li><a href="https://github.com/programinglive">GitHub</a></li>
+            <li><a href="https://www.youtube.com/@programinglive">YouTube</a></li>
+            <li><a href="https://www.tiktok.com/@mahatma.mahardhika">TikTok</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <ul>
+            <li><a href="/pages/terms-of-service.html">Terms of Service</a></li>
+            <li><a href="/pages/privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2024 <a href="https://programinglive.com">Programinglive</a>. All rights reserved.</p>
+    </div>
   </footer>
   <script src="../assets/script.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1286203107102917"
