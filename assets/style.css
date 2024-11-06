@@ -35,10 +35,33 @@ img{
     height: auto;
 }
 
-.menu-container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+@media (max-width: 768px) {
+    .menu-container{
+        display: none;
+    }
+}
+.hamburger{
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger{
+        display: block;
+    }
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fafafa;
 }
 
 ul.menu li {

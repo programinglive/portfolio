@@ -19,3 +19,9 @@ const footer = document.querySelector('footer');
 footer.style.position = 'fixed';
 footer.style.bottom = '0';
 footer.style.width = '100%';
+
+
+function toggleMenu(){
+  const mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenu.classList.toggle('active');
+}
