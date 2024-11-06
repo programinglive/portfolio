@@ -178,6 +178,14 @@ strong {
     font-weight: 700;
     margin: 0.5rem 0;
 }
+.privacy-policy h2,
+.terms-of-service h2{
+    font-size: 1rem;
+}
+.privacy-policy p,
+.terms-of-service p{
+    font-size: 0.8rem;
+}
 .privacy-policy li,
 .terms-of-service li{
     list-style-type: none;
