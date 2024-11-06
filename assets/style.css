@@ -102,7 +102,7 @@ ul.menu>li>a {
     padding-right: 1.5rem;
     gap:1rem;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
