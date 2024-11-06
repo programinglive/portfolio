@@ -41,6 +41,11 @@
     list-style: none;
 }
 
+
+.mobile-menu li a{
+    text-decoration: none;
+}
+
 .mobile-menu .close{
     position: absolute;
     top: 0;

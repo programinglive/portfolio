@@ -35,6 +35,10 @@ img{
     height: auto;
 }
 
+.menu-container{
+    text-align: end;
+}
+
 @media (max-width: 768px) {
     .menu-container{
         display: none;
@@ -87,12 +91,6 @@ ul.menu>li>a {
 }
 
 @media (max-width: 768px) {
-    .myName{
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
     .headline{
         font-size: 1.5rem;
     }
@@ -101,12 +99,13 @@ ul.menu>li>a {
 #information{
     display: flex;
     flex-direction: column;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     gap:1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
+
 @media (max-width: 768px) {
     #information{
         font-size: 0.8rem;

@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
 }
+
 @media (max-width: 768px) {
-    #skills>h2{
-        font-size: 1rem;
+    #skills{
+        font-size: 0.8rem;
     }
 }
+
 #skills>ul>li{
     list-style-type: none;
 }

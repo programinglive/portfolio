@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr;
     gap:1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 @media (min-width: 769px) {
@@ -21,5 +23,10 @@
 @media (max-width: 768px) {
     #jumbotron p{
         font-size: 0.8rem;
+    }
+
+    #jumbotron p.myName{
+        text-align: center;
+        font-size: 1.3rem;
     }
 }
