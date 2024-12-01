@@ -25,7 +25,7 @@ function Hero() {
           tools and knowledge that empower developers and businesses alike.
         </p>
         <p className="text-sm max-w-[500px] mx-auto leading-relaxed">
-          Need help, or just want to chat? Please don&apos;t  hesitate to
+          Need help, or just want to chat? Please don&apos;t  hesitate to:
           <a
             href="https://linktr.ee/programinglive"
             className="text-blue-500 hover:text-blue-700 underline"
