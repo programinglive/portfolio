@@ -1,30 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# Pembuatan Situs Web dari Nol
+## Getting Started
 
-Ini adalah proyek untuk membangun sebuah situs web dari awal menggunakan HTML, CSS, dan JavaScript. Proyek ini bertujuan untuk memberikan panduan langkah demi langkah tentang bagaimana membuat situs web sederhana dengan tampilan menarik dan fungsionalitas dasar.
+First, run the development server:
 
-## Tujuan
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Tujuan dari proyek ini adalah untuk mempelajari dasar-dasar pembuatan situs web dengan teknologi web yang paling umum digunakan, yaitu HTML, CSS, dan JavaScript. Dengan memahami konsep dan praktik terkait, diharapkan peserta akan dapat:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Memahami struktur dasar HTML dan cara menggunakan tag-tag HTML untuk membuat konten web.
-- Menerapkan gaya dan tata letak menggunakan CSS untuk meningkatkan penampilan visual situs.
-- Menggunakan JavaScript untuk menambahkan interaktivitas dan fungsionalitas dinamis ke situs web.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Isi
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Proyek ini terdiri dari beberapa tahap, yang mencakup:
+## Learn More
 
-1. **Pengaturan Proyek**: Menyiapkan struktur folder proyek dan file-file dasar seperti `index.html`, `style.css`, dan `script.js`.
-2. **Struktur HTML**: Membuat struktur dasar HTML untuk halaman situs, termasuk header, konten, dan footer.
-3. **Gaya CSS**: Menambahkan gaya dan tata letak menggunakan CSS untuk meningkatkan tampilan visual situs.
-4. **Fungsionalitas JavaScript**: Menggunakan JavaScript untuk menambahkan interaktivitas dan fungsionalitas ke situs, seperti efek hover dan animasi sederhana.
-5. **Responsif dan Kompatibilitas**: Membuat situs web responsif agar dapat ditampilkan dengan baik di berbagai perangkat dan browser.
+To learn more about Next.js, take a look at the following resources:
 
-## Kontribusi
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Kontribusi terhadap proyek ini sangat dipersilakan. Jika Anda menemukan bug, memiliki saran perbaikan, atau ingin menambahkan fitur baru, silakan buka *issue* atau ajukan *pull request*.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Lisensi
+## Deploy on Vercel
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
