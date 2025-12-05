@@ -6,8 +6,16 @@ The table below lists releases in reverse chronological order.
 
 | Version | Date       | Highlight |
 |---------|------------|-----------|
+| 0.1.3 | 2025-12-05 | force husky true on first release (790cf08) |
 | 0.1.2 | 2025-12-05 | add PRD and release notes template (7eb6d33) |
 
+
+
+## 0.1.3 – 🐛 Bug Fixes
+
+Released on **2025-12-05**.
+
+- force husky true on first release (790cf08)
 
 ## 0.1.2 – 📝 Documentation
 
