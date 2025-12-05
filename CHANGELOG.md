@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/programinglive/portfolio/compare/v0.1.2...v0.1.3) (2025-12-05)
+
+
+### 🐛 Bug Fixes
+
+* force husky true on first release ([790cf08](https://github.com/programinglive/portfolio/commit/790cf08324cffedb3f0faaed0abac07d72162c0e))
+
 ### [0.1.2](https://github.com/programinglive/portfolio/compare/v0.1.1...v0.1.2) (2025-12-05)
 
 
