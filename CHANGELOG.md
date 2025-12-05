@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/programinglive/portfolio/compare/v0.1.1...v0.1.2) (2025-12-05)
+
+
+### 📝 Documentation
+
+* add PRD and release notes template ([7eb6d33](https://github.com/programinglive/portfolio/commit/7eb6d336ae34d73cb700ee6eb87b5479c90c7044))
+
+
+### 🏗️ Build System
+
+* **deploy:** add netlify config and app shims for portfolio site ([53824a5](https://github.com/programinglive/portfolio/commit/53824a5fcc417fb79ff2711c158fcf7b73b08dff))
+
 ### 0.1.1 (2025-12-05)
 
 
